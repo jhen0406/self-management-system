@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+:root {
+  --base-clr: #11121a;
+  --line-clr: #42434a;
+  --hover-clr: #222533;
+  --text-clr: #e6e6ef;
+  --accent-clr: #5e63ff;
+  --secondary-text-clr: #b0b3c1;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
+} */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.5rem;
+}
